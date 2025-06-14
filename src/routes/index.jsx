@@ -20,6 +20,9 @@ const router = createBrowserRouter([
 
         ],
     },
+    {
+    basename: "/Ppf-Gold1", // 👈 this is essential
+  }
 ]);
   
 
