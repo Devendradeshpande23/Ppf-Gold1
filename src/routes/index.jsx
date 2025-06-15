@@ -23,9 +23,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  {
-    basename: "/Ppf-Gold1", // ✅ Correct place to define basename
-  }
+  
 );
 
 export default router;
