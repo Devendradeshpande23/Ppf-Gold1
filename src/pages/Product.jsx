@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 
 const productImages = Array.from({ length: 14 }, (_, i) => ({
   id: i + 1,
-  src: `/media/pp${i + 1}.jpeg`,
+  src: `${import.meta.env.BASE_URL}media/pp${i + 1}.jpeg`
 }))
+
 
 const Product = () => {
   const [activeImg, setActiveImg] = useState(null)

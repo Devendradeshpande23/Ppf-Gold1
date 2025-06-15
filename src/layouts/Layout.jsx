@@ -30,7 +30,7 @@ const Layout = () => {
   const location = useLocation()
 
   // Match home page exactly — adjust for subfolder if deployed under /ppf-gold/
-  const isHome = location.pathname === '/' || location.pathname === '/ppf-gold/'
+  const isHome = location.pathname === '/' || location.pathname === '/Ppf-Gold1/'
 
   return (
     <>

@@ -4,7 +4,7 @@ const galleryItems = [
   {
     id: 1,
     type: 'video',
-    src: '/media/v1.mp4'
+    src: new URL('/media/v1.mp4', import.meta.url).pathname
   },
   
 ]

@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className=''>
             <nav className='w-full h-[clamp(5rem,8vw,6rem)] bg-black fixed shadow-md z-50 flex items-center text-white justify-between '>
                 <div className='flex items-center text-white' >
-                    <NavLink to='/'><img src={logo} className='w-[clamp(60px,5vw,120px)]' alt="logo" /></NavLink> 
+                    <NavLink to='#'><img src={logo} className='w-[clamp(60px,5vw,120px)]' alt="logo" /></NavLink> 
                     
                     <div className='text-center ' >
                         <h1 className='font-bold text-[clamp(1.2rem,2.5vw,2rem)] ' >Shyamsunder Corporation</h1>
