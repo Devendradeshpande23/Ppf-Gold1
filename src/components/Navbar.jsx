@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className=''>
             <nav className='w-full h-[clamp(5rem,8vw,6rem)] bg-black fixed shadow-md z-50 flex items-center text-white justify-between '>
                 <div className='flex items-center text-white' >
-                    <NavLink to='#'><img src={logo} className='w-[clamp(60px,5vw,120px)]' alt="logo" /></NavLink> 
+                    <NavLink to='/'><img src={logo} className='w-[clamp(60px,5vw,120px)]' alt="logo" /></NavLink> 
                     
                     <div className='text-center ' >
                         <h1 className='font-bold text-[clamp(1.2rem,2.5vw,2rem)] ' >Shyamsunder Corporation</h1>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     {showMenu && (
                         <li className=' absolute right-4 top-full mt-2 bg-black shadow rounded flex flex-col gap-2 p-2 z-50 ' >
                             <ul className=' px-4 py-2 bg-gray-200 text-xl text-black rounded'><NavLink to='/'>Home</NavLink></ul>
-                            <ul className=' px-4 py-2 bg-gray-200 text-xl text-black rounded'><NavLink to='/products'>Products</NavLink></ul>
+                            <ul className=' px-4 py-2 bg-gray-200 text-xl text-black rounded'><NavLink to='/product'>Products</NavLink></ul>
                             <ul className=' px-4 py-2 bg-gray-200 text-xl text-black rounded'><NavLink to='/gallery'>Gallery</NavLink></ul>
                             <ul className=' px-4 py-2 bg-gray-200 text-xl text-black rounded'><NavLink to='/contactus'>Contact Us</NavLink></ul>
                         </li>
