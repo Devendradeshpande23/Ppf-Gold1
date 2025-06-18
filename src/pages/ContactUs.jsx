@@ -31,12 +31,12 @@ const ContactUs = () => {
           </p>
           <div className="text-gray-800 space-y-3">
             <div>
-              <h4 className="text-xl font-semibold">OFFICE</h4>
-              <p>SM Trade Co.<br />K-139, Waluj, MIDC<br />Aurangabad-431136<br />Maharashtra, India.</p>
+              <h4 className="text-xl font-semibold">STUDIO ADDRESS</h4>
+              <p>A 06, Palladium Corporate Road,<br />Makarba<br />Ahemdabad - 380051<br />Gujarat, India.</p>
             </div>
             <div>
-              <p className="mt-4">📞 <strong>+91-9225577999</strong></p>
-              <p>✉ <a href="mailto:sagargases@gmail.com" className="text-blue-600 hover:underline">sagargases@gmail.com</a></p>
+              <p className="mt-4">📞 <strong>9112224335</strong></p>
+              <p>✉ <a href="coo@smtradeco.com" className="text-blue-600 hover:underline">coo@smtradeco.com</a></p>
             </div>
           </div>
         </div>
